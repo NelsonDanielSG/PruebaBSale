@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+    background-color: #fff;
+}
+
+.title{
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: left;
+}
+
+.price{
+    font-weight: bold;
+    text-align: center;
+    color: #ff5b08;
+    font-size: 30px;
+}
+
+.last-price{
+    font-weight: bold;
+    text-align: center;
+    color: #ff5b08;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.card-img-top{
+    align-self: center;
+    max-width: 60%;
+    height: auto;
+    width: 60%
+}
+
+#containerProducts {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.card{
+    height: 57vh;
+}
